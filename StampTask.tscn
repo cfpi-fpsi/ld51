@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://StampTask.gd" type="Script" id=1]
 [ext_resource path="res://work/stamp_ok_button_hover.png" type="Texture" id=2]
@@ -8,6 +8,7 @@
 [ext_resource path="res://work/stamp_nok_button_pressed.png" type="Texture" id=6]
 [ext_resource path="res://work/stamp_nok_button_hover.png" type="Texture" id=7]
 [ext_resource path="res://DocumentsLeftCount.gd" type="Script" id=8]
+[ext_resource path="res://StampTool.tscn" type="PackedScene" id=9]
 
 [node name="StampTask" type="Node2D"]
 script = ExtResource( 1 )
@@ -64,6 +65,8 @@ margin_right = 119.0
 margin_bottom = 27.0
 text = "0"
 script = ExtResource( 8 )
+
+[node name="StampTool" parent="." instance=ExtResource( 9 )]
 
 [connection signal="stamp_count_update" from="." to="CanvasLayer/HBoxContainer/DocumentsLeftCount" method="_on_StampTask_stamp_count_update"]
 [connection signal="pressed" from="CanvasLayer/VBoxContainer/StampOKButton" to="." method="_on_change_ok_stamp"]
