@@ -1,0 +1,65 @@
+[gd_scene format=2]
+
+[node name="CalculateTask" type="WindowDialog"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -210.5
+margin_top = -111.0
+margin_right = 210.5
+margin_bottom = 111.0
+window_title = "Calculate this"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchor_right = 1.0
+margin_bottom = 68.0
+
+[node name="NumberA" type="Label" parent="VBoxContainer"]
+margin_right = 421.0
+margin_bottom = 14.0
+text = "0"
+align = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+margin_top = 18.0
+margin_right = 421.0
+margin_bottom = 32.0
+alignment = 2
+
+[node name="PlusSign" type="Label" parent="VBoxContainer/HBoxContainer"]
+margin_left = 401.0
+margin_right = 409.0
+margin_bottom = 14.0
+text = "+"
+align = 1
+
+[node name="NumberB" type="Label" parent="VBoxContainer/HBoxContainer"]
+margin_left = 413.0
+margin_right = 421.0
+margin_bottom = 14.0
+text = "0"
+align = 2
+
+[node name="EqualSign" type="Label" parent="VBoxContainer"]
+margin_top = 36.0
+margin_right = 421.0
+margin_bottom = 50.0
+text = "="
+align = 2
+
+[node name="LineEdit" type="LineEdit" parent="VBoxContainer"]
+margin_top = 54.0
+margin_right = 421.0
+margin_bottom = 78.0
+align = 2
+placeholder_text = "Solution here"
+
+[node name="SubmitResult" type="Button" parent="."]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -98.0
+margin_top = -20.0
+text = "Submit result"

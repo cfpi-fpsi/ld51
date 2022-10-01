@@ -1,14 +1,26 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://RentProgressBar.gd" type="Script" id=1]
+[ext_resource path="res://Rent amount.gd" type="Script" id=2]
 
 [node name="RentTimerInterface" type="VBoxContainer"]
 anchor_right = 1.0
 
-[node name="Next rent" type="Label" parent="."]
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
 margin_right = 1024.0
 margin_bottom = 14.0
-text = "Next rent:"
+
+[node name="Next rent" type="Label" parent="HBoxContainer"]
+margin_right = 76.0
+margin_bottom = 14.0
+text = "Next rent: $"
+
+[node name="Rent amount" type="Label" parent="HBoxContainer"]
+margin_left = 80.0
+margin_right = 88.0
+margin_bottom = 14.0
+text = "0"
+script = ExtResource( 2 )
 
 [node name="RentProgressBar" type="ProgressBar" parent="."]
 margin_top = 18.0
