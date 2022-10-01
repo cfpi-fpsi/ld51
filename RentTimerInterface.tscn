@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://RentProgressBar.gd" type="Script" id=1]
+
+[node name="RentTimerInterface" type="VBoxContainer"]
+anchor_right = 1.0
+
+[node name="Next rent" type="Label" parent="."]
+margin_right = 1024.0
+margin_bottom = 14.0
+text = "Next rent:"
+
+[node name="RentProgressBar" type="ProgressBar" parent="."]
+margin_top = 18.0
+margin_right = 1024.0
+margin_bottom = 20.0
+size_flags_vertical = 2
+max_value = 10.0
+percent_visible = false
+script = ExtResource( 1 )
