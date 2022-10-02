@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
-   sodipodi:docname="Document_bullshit.svg"
+   sodipodi:docname="Document_good.svg"
    inkscape:export-filename="/home/emssej/Dokumenty/Programowanie/ld51/Resources/Images/Document.png"
    inkscape:export-xdpi="16"
    inkscape:export-ydpi="16"
@@ -27,11 +27,11 @@
      inkscape:pagecheckerboard="0"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.42709131"
-     inkscape:cx="-46.828394"
-     inkscape:cy="531.50227"
-     inkscape:window-width="1600"
-     inkscape:window-height="831"
+     inkscape:zoom="0.85418262"
+     inkscape:cx="495.79562"
+     inkscape:cy="540.86795"
+     inkscape:window-width="1024"
+     inkscape:window-height="1243"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -136,7 +136,8 @@
   <g
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="Layer 1">
+     inkscape:label="Layer 1"
+     sodipodi:insensitive="true">
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;line-height:1.25;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';white-space:pre;inline-size:123.242;stroke-width:0.264583"
@@ -146,10 +147,10 @@
        transform="translate(24.369679,8.5011151)"><tspan
          x="18.698755"
          y="50.933357"
-         id="tspan60401">Bullshit </tspan><tspan
+         id="tspan56">Good </tspan><tspan
          x="18.698755"
          y="82.683358"
-         id="tspan60403">document</tspan></text>
+         id="tspan58">document</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05556px;line-height:1.25;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono';text-align:start;text-anchor:start;white-space:pre;inline-size:123.709;stroke-width:0.264583"
@@ -159,30 +160,30 @@
        transform="translate(-3.7513847,-28.966877)"><tspan
          x="47.157589"
          y="144.13553"
-         id="tspan60405">A spectre is haunting Europe </tspan><tspan
+         id="tspan60">A spectre is haunting Europe </tspan><tspan
          x="47.157589"
          y="152.95498"
-         id="tspan60407">— the spectre of communism. </tspan><tspan
+         id="tspan62">— the spectre of communism. </tspan><tspan
          x="47.157589"
          y="161.77444"
-         id="tspan60409">All the powers of old Europe </tspan><tspan
+         id="tspan64">All the powers of old Europe </tspan><tspan
          x="47.157589"
          y="170.5939"
-         id="tspan60411">have entered into a holy </tspan><tspan
+         id="tspan66">have entered into a holy </tspan><tspan
          x="47.157589"
          y="179.41335"
-         id="tspan60413">alliance to exorcise this </tspan><tspan
+         id="tspan68">alliance to exorcise this </tspan><tspan
          x="47.157589"
          y="188.23281"
-         id="tspan60415">spectre: Pope and Tsar, </tspan><tspan
+         id="tspan70">spectre: Pope and Tsar, </tspan><tspan
          x="47.157589"
          y="197.05227"
-         id="tspan60417">Metternich and Guizot, French </tspan><tspan
+         id="tspan72">Metternich and Guizot, French </tspan><tspan
          x="47.157589"
          y="205.87173"
-         id="tspan60419">Radicals and German police-</tspan><tspan
+         id="tspan74">Radicals and German police-</tspan><tspan
          x="47.157589"
          y="214.69119"
-         id="tspan60421">spies.</tspan></text>
+         id="tspan76">spies.</tspan></text>
   </g>
 </svg>
